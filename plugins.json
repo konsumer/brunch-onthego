@@ -1,0 +1,7 @@
+[
+	"https://github.com/cogitor/PhoneGap-OrientationLock.git",
+	"org.apache.cordova.console",
+	"org.apache.cordova.device",
+	"org.apache.cordova.statusbar",
+	"org.apache.cordova.splashscreen"
+]

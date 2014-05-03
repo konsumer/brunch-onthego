@@ -1,0 +1,17 @@
+{
+  "name": "ionicstart",
+  "version": "0.0.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "ngmin-uglify-js-brunch": "~1.7.2",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "auto-reload-brunch": "~1.6.5",
+    "sass-brunch": "^1.8.1"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

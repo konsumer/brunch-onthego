@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var fs = require('fs')
+	path = require('path');
+
+['platforms', 'plugins'].forEach(function(dir){
+	var p = path.join(process.argv[2], dir);
+	fs.exists(p, function(exists){
+		if(!exists){
+			fs.mkdir(p, function(e){
+				if (e){
+					console.log('Error creating '+dir+'.')
+					process.exit(1);
+				}
+				console.log('Created '+dir+' dir.');
+			})
+		}
+	});
+});

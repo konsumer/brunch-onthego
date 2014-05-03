@@ -1,0 +1,19 @@
+{
+  "name": "ionicstart",
+  "version": "0.0.0",
+  "authors": [
+    "David Konsumer <konsumer@jetboystudio.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionic": "~0.9.27"
+  }
+}
