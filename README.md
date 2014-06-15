@@ -1,6 +1,14 @@
-# Ionicstart
+# brunch on-the-go
 
-Basic boilerplate & example of a cordova app built from brunch & ionic that uses bower.
+Ionic/angular based skeleton.
+
+## Quickstart
+
+```
+brunch new gh:konsumer/brunch-onthego PROJECT
+cd PROJECT
+brunch watch -s
+```
 
 ## Layout
 
